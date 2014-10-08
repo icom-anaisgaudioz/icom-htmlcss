@@ -1,0 +1,44 @@
+/*
+CSS global
+*/
+
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, label, 
+	{
+	margin : 0;
+	padding: 0;
+	border : 0px;
+	list-style: none;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+	}
+
+
+
+
+
+#wrapper :
+	{
+		width : 1280px ;
+		margin : 0 auto ;
+	}
+#header  
+	{
+		width : 100px ;
+		height : 100px ;
+	}
+
+
+#logo  
+	{
+		
+	
+	}
+
+
+
+body {background: #FFF; }
+
+a,
+a:hover { text-decoration: none; }
+
