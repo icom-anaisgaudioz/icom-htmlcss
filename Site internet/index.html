@@ -1,203 +1,215 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Site internet</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="stylesheet/global.css" rel="stylesheet" type="text/css">
-     <!-- <link href="stylesheet/mediaqueries.css" rel="stylesheet" type="text/css">   -->
-</head>
+	<head>
+		<title>Allociné</title>
+		<!--  META -->
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!--  CSS -->
+		 <link rel="stylesheet" type="text/css" href="stylesheets/global.css" />
+		 <link rel="stylesheet" type="text/css" href="stylesheets/mediaqueries.css" />
+		<!--  FONTS -->
+		 <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+		 <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	</head>
+
 
 
 <body>
-<div id="global"> 
-
-<!--  HEADER -->
-  <div id="header" class="resp-section">
-  <div class="resp-grid"> 
-     <!--  LOGO --> 
-      <div id="logo" class="mob-12 tab-3 pc-3">  
-        <img src="img/logo_allocine.png" width="231" height="80"> 
-      </div>  
-    <!--  LOGO --> 
-    <!--  NAV --> 
-      <div id="nav" class="mob-12 tab-3 pc-3"> 
-        <ul>
-          <li><a href="">ACCUEIL<span> Home</span></a></li>
-          <li><a href="">CINÉMA<span> Films à l'affiche</span></a></li>
-          <li><a href="">SÉRIES<span> Séries du moment</span></a></li>
-          <li><a href="">TV<span> Programme télé</span></a></li>
-        </ul>
-     </div> 
-    <!--  NAV --> 
-  </div>  
-<!--  HEADER --> 
-     
-
-  
-<!--  SLIDER -->  
-   <div id="slider" class="img-responsive">
-     <img src="img/slider_batesmotel.jpg" alt="Bates Motel" > 
-   </div> 
-<!--  SLIDER --> 
-            
-<!--  CONTENU --> 
-  <div id="contenu" class="resp-section" class="resp-grid" class="pc-12 tab-12 mob-12">
-
-  <!--  colonne1 --> 
-    <div class="col" id="col1" class="mob-12 pc-4 tab-4">
-		<div class="titre">
-        <h2>NEWS</h2>
-       	</div>
-              
-		<div class="block">
-		<h3>Les 10 news à ne pas manquer cette semaine !</h3>
-			<div class="date">
-			<p>5 novembre 2014 |</p>
-            </div>
-			<p>Matt Damon de retour en Jason Bourne, notre rencontre avec le patron de Netflix, le synopsis d'"Avengers 2" révélé, Gillian Anderson dans "H...<a href="#">suite de l'article</a></p>
-       	</div>
-             
-             <hr style="width: 75%; height: 0.8px; background:#000000;"/ >               
-		
-        <div class="block">
-		<h3>De Lucy à Intouchables : les 10 plus gros succès du cinéma français dans le monde</h3>
-			<div class="date">
-			<p>1 novembre 2014 </p>
-            </div>
-            <p>Avec plus de 52 millions d'entrées dans le monde, Lucy est devenu le film français le plus vu à l'étranger, devant Taken 2. Petit tour d'hor...<a href="#">suite de l'article</a></p>   		</div>
-            
-            <hr style="width: 75%; height: 0.8px; background:#000000;"/ >
-                    
-		<div class="block">
-        <h3>Nolan : pourquoi vous attendez ses films aussi impatiemment...</h3>
-             <div class="date">
-             <p>20 octobre 2014 |</p>
-             </div>
-             <p>Depuis près de 10 ans, chacun des films de Christopher Nolan déchaîne conjointement les passions du grand public et des cinéphiles avertis. ...<a href="#">suite de l'article</a></p>
-        </div>  
+	<!--  GLOBAL -->
+	<div id="global"> 
+		<!--  HEADER -->
+		<header class="resp-section clearfix">
+			<div class="resp-grid">
+				<!--  LOGO -->
+				<div id="logo" class="mob-12 tab-3 pc-3">
+					 <a href="site.html"><img src="img/logo_allocine.png"  width="300" height="107" alt="Allociné" /></a>
+				</div>
+				<!--  ! LOGO -->
+				<!--  NAV -->
+				<nav class="mob-12 tab-8 pc-8">
+					<ul>
+						 <li><a href="">ACCUEIL<span> Home</span></a></li>
+         				 <li><a href="">CINÉMA<span> Films à l'affiche</span></a></li>
+          				 <li><a href="">SÉRIES<span> Séries du moment</span></a></li>
+          				 <li><a href="">TV<span> Programme télé</span></a></li>
+					</ul>
+				</nav>
+				<!--  ! NAV -->
+			</div>
+		</header>
+		<!-- ! HEADER -->
+		<!--  CONTENT -->
+		<div id="contenu" class="resp-section clearfix">
+			<div class="resp-grid">
+				<!--  SLIDER -->
+				<div id="slider" class="mob-12 tab-12 pc-12">
+					 <img src="img/slider_batesmotel.jpg" alt="Super slider img" />
+				</div>
+				<!--  ! SLIDER -->
+				<!--  CONTAINER -->
+				<div id="container" >
+					<!--  COLONNE 1 -->
+					<div class="pc-4 mob-12 tab-12" id="col1">
+						<div class="col">
+							 <h2>NEWS</h2>
+						</div>
+						<div class='block'>
+							 <h3>Les 10 news à ne pas manquer cette semaine !</h3>
+							<div class="date">
+								 <p>5 novembre 2014 |</p>
+            				</div>
+							<div class='article'>
+								 <p>Matt Damon de retour en Jason Bourne, notre rencontre avec le patron de Netflix, le synopsis d'"Avengers 2" révélé, Gillian Anderson dans "H...<a href="#">suite de l'article</a></p>
+								</p>
+							</div>
+						</div>
+						<hr style="width: 75%; height: 0.8px; background:#000000;"/ >
+						<div class='block'>
+							 <h3>De Lucy à Intouchables : les 10 plus gros succès du cinéma français dans le monde</h3>
+							<div class="date">
+								 <p>1 novembre 2014 </p>
+           					</div>
+							<div class='article'>
+								 <p>Avec plus de 52 millions d'entrées dans le monde, Lucy est devenu le film français le plus vu à l'étranger, devant Taken 2. Petit tour d'hor...<a href="#">suite de l'article</a></p>
+							</div>
+							
+						</div>
+						<hr style="width: 75%; height: 0.8px; background:#000000;"/ >
+						<div class='block'>
+							 <h3>Nolan : pourquoi vous attendez ses films aussi impatiemment...</h3>
+							<div class="date">
+             					 <p>20 octobre 2014 |</p>
+             				</div>
+							<div class='article'>
+								 <p>Depuis près de 10 ans, chacun des films de Christopher Nolan déchaîne conjointement les passions du grand public et des cinéphiles avertis. ...<a href="#">suite de l'article</a></p>
+							</div>
+							
+						</div>
+					</div>
+					<!--  ! COLONNE 1 -->
+					<!--  COLONNE 2 -->	
+					<div class='pc-4 mob-12 tab-12' id="col2">
+						<div class="col">
+						  <h2>DOSSIERS</h2>
+						</div>
+						<div class='block'>
+							 <h3>200 films pour Halloween</h3>
+           					<div class="date">
+            					 <p>30 octobre 2014 |</p>
+            				</div>
+							<div class='article'>
+								 <p>Avis aux amateurs d'horreur ! Organiser une nuit de la peur chez vous, c'est possible grâce à ce dossier qui vous aide à concocter votre pro...<a href="#">suite de l'article</a></p>
+							</div>
+						</div>
+						<hr style="width: 75%; height: 0.8px; background:#000000;"/ >
+						<div class='block'>
+ 						 <h3>10 films qui ont une fin différente du livre original</h3>
+             			<div class="date">
+              				 <p>25 octobre 2014 |</p>
+              			</div>
+							<div class='article'>
+								 <p>"Gone Girl" de David Fincher réserve-t-il au public une fin totalement différente de celle du livre ? Découvrez ce qu'il en est, ainsi que 1...<a href="#">suite de l'article</a></p>
+							</div>
+							
+						</div>
+						<hr style="width: 75%; height: 0.8px; background:#000000;"/ >
+						<div class='block'>
+							 <h3>"Lost" fête ses 10 ans : comment la série a marqué la culture populaire...</h3>
+               				<div class="date">
+              					 <p>13 octobre 2014 |</p>
+              				</div>
+							<div class='article'>
+								 <p>10 ans plus tard, Lost est définitivement culte ! La preuve, s'il en fallait une, avec notre best-of des références qui ont été faites à la ...<a href="#">suite de l'article</a></p>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!--  ! COLONNE 2 -->
+					<!--  COLONNE 3 -->
+					<div class='pc-4 mob-12 tab-12' id="col3">
+						<div class='button'>
+							 <img src="img/icone_ba.png" width="64" height="64" alt="Bandes Annonces" />
+							 <h3> Bandes Annonces </h3>
+							 <span>Les plus récentes !</span>	
+						</div>
+						<div class='button'>
+							 <img src="img/icone_vod.png" width="64" height="64" alt="VOD" />
+							 <h3> VOD </h3>
+							 <span>Les films disponibles en VOD !</span>
+						</div>
+						<div class='button'>
+							 <img src="img/icone_emission.png" width="64" height="64" alt="Emissions" />
+							 <h3> Emissions </h3>
+							 <span>Les dernières émissions !</span>
+						</div>
+					</div>
+					<!--  ! COLONNE 3 -->
+				</div>
+				<!--  ! CONTAINER -->
+			</div>
+		</div>
+		<!--  ! CONTENT -->
+		<!--  FOOTER -->
+		<footer class="resp-section clearfix">
+			<div class="resp-grid">
+				<!--  FOOTER TOP -->
+				<div id="footer-top" class="mob-12 tab-12 pc-12 ">
+					<!--  COLONNE 4 -->
+					<div class='pc-4 mob-12 tab-12' id="col4">
+						 <h2> LIENS </h2>
+						 <ul>
+						  	 <li><a href="">Allociné...partout!</a></li>
+          				  	 <li><a href="">A propos d'Allociné</a></li>
+         				  	 <li><a href="">Allociné recrute</a></li>
+          				  	 <li><a href="">La communauté Allociné</a></li>
+          				 </ul>
+					</div>
+					<!--  ! COLONNE 4 -->
+					<!--  COLONNE 5 -->
+					<div class='pc-4 mob-12 tab-12' id="col5">
+						<h2> CONTACT </h2>
+						<div class="adress">
+							 <h3> AlloCiné SA </h3>
+               				 <span>3 avenue Hoche </span>
+               				 <span>75008 PARIS </span>
+               				 <span>Tel : 01 71 39 81 00 </span>
+						</div> <br/>
+						<div class="social">
+							<ul>
+								 <li><a href="#"><img src="img/contact_gmail.png" width="38" height="38" alt="email" /></a></li>
+                 				 <li><a href="#"><img src="img/contact_twitter.png" width="38" height="38" alt="twitter" /></a></li>
+                 				 <li><a href="#"><img src="img/contact_facebook.png" width="38" height="38" alt="facebook" /></a></li>
+							</ul>
+						</div>
+					</div>
+					<!--  ! COLONNE 5 -->
+					<!--  COLONNE 6 -->
+					<div class='pc-4 mob-12 tab-12' id="col6">
+						<h2> FILMS DU MOIS </h2>
+						<ul>
+              				 <img src="img/filmsmois_annabelle.jpg" width="60" height="80" alt="Annabelle" />
+              			 	 <img src="img/filmsmois_boxtrolls.jpg" width="60" height="80" alt="Les Boxtrolls" />
+             			 	 <img src="img/filmsmois_fury.jpg" width="60" height="80" alt="Fury" />
+          				</ul>
+          				<ul>
+              			 	 <img src="img/filmsmois_gonegirl.jpg" width="60" height="80" alt="Gone Girl" />
+              			 	 <img src="img/filmsmois_lelabyrinthe.jpg" width="60" height="80" alt="Le Labyrinthe" />
+              			 	 <img src="img/filmsmois_ninjaturtles.jpg" width="60" height="80" alt="Ninja Turtles" />
+          				</ul>       
+					</div>
+					<!--  ! COLONNE 6 -->
+				</div>
+				<!--  ! FOOTER TOP -->
+				<!--  FOOTER BOTTOM -->
+				<div id="footer-bottom" class="pc-12 mob-12-tab-12 ">
+					<p>©AlloCiné</p>
+				</div>
+				<!--  ! FOOTER BOTTOM -->
+			</div>
+		</footer>
+		<!--  ! FOOTER -->
 	</div>
- <!--  colonne1 -->             
-            
- <!--  colonne2 --> 
-    <div class="col" id="col2" class="mob-12 pc-4 tab-4">
-      <div class="titre">
-      <h2>DOSSIERS</h2>
-      </div>
-              
-		<div class="block">
-        <h3>200 films pour Halloween</h3>
-           	<div class="date">
-            <p>30 octobre 2014 |</p>
-            </div>
-            <p>Avis aux amateurs d'horreur ! Organiser une nuit de la peur chez vous, c'est possible grâce à ce dossier qui vous aide à concocter votre pro...<a href="#">suite de l'article</a></p>
-        </div> 
-
-				<hr style="width: 75%; height: 0.8px; background:#000000;"/ >
-
-        <div class="block">
-        <h3>10 films qui ont une fin différente du livre original</h3>
-              <div class="date">
-              <p>25 octobre 2014 |</p>
-              </div>
-              <p>"Gone Girl" de David Fincher réserve-t-il au public une fin totalement différente de celle du livre ? Découvrez ce qu'il en est, ainsi que 1...<a href="#">suite de l'article</a></p>
-        </div>
-        
-        	<hr style="width: 75%; height: 0.8px; background:#000000;"/ >
-                    
-        <div class="block">
-        <h3>"Lost" fête ses 10 ans : comment la série a marqué la culture populaire...</h3>
-               <div class="date">
-               <p>13 octobre 2014 |</p>
-               </div>
-               <p>10 ans plus tard, Lost est définitivement culte ! La preuve, s'il en fallait une, avec notre best-of des références qui ont été faites à la ...<a href="#">suite de l'article</a></p>
-        </div>    
-	</div>
-  <!--  colonne2 --> 
-            
-  <!--  colonne3 --> 
-    <div class="col" id="col3" class="mob-12 pc-4 tab-4">
-       	<div class="button_group" id="button1">
-           <h2>BANDES ANNONCES</h2>
-        </div>
-        <div class="button_group" id="button2">
-            <h2>EMISSIONS</h2>
-      </div>
-         <div class="button_group" id="button3">
-           	<h2>VOD</h2>
-         </div>
-    </div> 
-  <!--  colonne3 --> 
-  
-</div>  
-<!-- CONTENU --> 
-
-     <div class="clear"></div>
-
-<!--  FOOTER --> 
-<div id="footer" class="resp-section" class="resp-grid" > 
-  <!--  FOOTER-TOP --> 
-  <div id="footer_top">
-          
-  <!--  colonne 4 --> 
-	<div class="col" id="col4" class="mob-12 pc-4 tab-4">
-        <h2>LIENS</h2>
-          <ul>
-          <li><a href="">Allociné...partout!</a></li>
-          <li><a href="">A propos d'Allociné</a></li>
-          <li><a href="">Allociné recrute</a></li>
-          <li><a href="">La communauté Allociné</a></li>
-        </ul>    
-      </div> 
-      <!--colonne 4-->
-            
-      <!--colonne 5-->
-      <div class="col" id="col5" class="mob-12 pc-4 tab-4">
-        <h2>CONTACT</h2>
-          <div class="adress">
-               <h3> AlloCiné SA </h3>
-               <span>3 avenue Hoche </span><br/>
-               <span>75008 PARIS </span><br/>
-               <span>Tel : 01 71 39 81 00 </span>
-        </div>
-             <div class="social">
-               <ul>
-                 <li><a href="#"><img src="img/contact_gmail.png" width="38" height="38" alt="email" /></a></li>
-                 <li><a href="#"><img src="img/contact_twitter.png" width="38" height="38" alt="twitter" /></a></li>
-                 <li><a href="#"><img src="img/contact_facebook.png" width="38" height="38" alt="facebook" /></a></li>
-               </ul>
-             </div>       
-      </div> 
-      <!--colonne 5-->
-            
-      <!--colonne 6-->
-      <div class="col" id="col6" class="mob-12 pc-4 tab-4">
-        <h2>FILMS DU MOIS</h2>
-          <ul>
-              <img src="img/filmsmois_annabelle.jpg" width="60" height="80" alt="Annabelle" />
-              <img src="img/filmsmois_boxtrolls.jpg" width="60" height="80" alt="Les Boxtrolls" />
-              <img src="img/filmsmois_fury.jpg" width="60" height="80" alt="Fury" />
-          </ul>
-          <ul>
-              <img src="img/filmsmois_gonegirl.jpg" width="60" height="80" alt="Gone Girl" />
-              <img src="img/filmsmois_lelabyrinthe.jpg" width="60" height="80" alt="Le Labyrinthe" />
-              <img src="img/filmsmois_ninjaturtles.jpg" width="60" height="80" alt="Ninja Turtles" />
-          </ul>       
-      </div> 
-<!--colonne 6-->
-  </div>
-
-
-   <!--  FOOTER-BOTTOM --> 
-  <div id="footer_bottom"  class="mob-12 pc-12 tab-12"> 
-      <p>©AlloCiné</p>
- </div>  
-    <!--  FOOTER-BOTTOM  --> 
-
-</div>
- <!-- FOOTER-->
-
-</div> 
-
+	<!-- ! GLOBAL -->
 </body>
 </html>

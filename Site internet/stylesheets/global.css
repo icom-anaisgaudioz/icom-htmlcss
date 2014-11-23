@@ -1,0 +1,199 @@
+/* CSS  */
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, label, u 
+{ margin : 0; padding: 0; border: 0px; list-style: none; font-weight: normal; font-style: normal; text-align: left; font-family: arial; }
+
+
+/* Jaune : #fdc907 ; Noir : #000000 */
+
+
+/* Body */
+body{background:#FFF;}
+a, a:hover{ text-decoration:none; 	}
+p{font-size:13px;}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+	clear: both;
+	display: table;
+	content: " ";
+	overflow: auto;
+}
+
+/* Texte */
+h2 {
+	font-family: 'Kaushan Script' ; 
+	font-size: 35px; }
+h3 {
+	font-family:'Quicksand'; 
+	font-size: 17px;
+	font-weight:bold; }
+.date {
+	font-weight:bold ; 
+	font-style:italic; 
+	text-indent:hanging;}
+
+/* Positionnement */
+#global {
+	max-width:1200px;
+	margin:0 auto; }
+
+/* Header */	
+header {
+	height:100px; }
+#logo{
+	float:left; }
+#global header nav ul li a  { 
+	font-family:'Kaushan Script';
+	position:relative; 
+	border-bottom:5px solid #ccc; 
+	padding:10px 10px 20px; 
+	margin:0px 5px;
+	font-weight:bolder; 
+	color:#fdc907; }
+#global header nav ul li a:hover {
+	 border-bottom:5px solid #fdc907; 
+	 color:#fdc907;  
+	 text-decoration: none; } 
+
+/*nav*/
+nav {  
+	font-size: 30px; 
+	padding: 0; 
+	margin: 0; 
+	text-align: center; 
+	float::right; 
+	background-color: #000000;
+	 border-radius: 20px }  
+nav ul li {
+		display:inline; 
+		padding:0 0.5em; 
+		text-decoration:none; 
+		list-style: none; 
+		width:120%; }	
+nav a { 
+	display:inline-block; 
+	margin: 0 30px; } 
+span { 	
+	display:block; 	
+	font-size: 15px;
+	font-family:'Quicksand'; }
+
+/* Slider */
+#slider img{
+	max-width:100%;
+	border-radius: 5px;
+	 box-shadow: 0px 4px 4px #1c1a19; }
+
+/* Container */
+#container{
+	height:800%;
+	background-color:#DDDCDC; }
+#container .col{
+	float:left;
+	width:400px;}
+.block {
+	margin:15px; }
+
+/*Colone 1*/
+ #col1 h2  {
+	margin:10px 0; 
+	padding:10px 0; }
+ #col1 .article  {
+	margin:10px 0; 
+	padding:10px 0; }
+
+/*Colone 2*/
+ #col2 h2  {
+	margin:10px 0; 
+	padding:10px 0; }
+ #col2 .article {
+	margin:10px 0; 
+	padding:10px 0; }
+
+/*Colone 3*/
+.button {
+	font-weight: bold; 
+	margin : 5px; 
+	padding: 6px; 
+	color:#fdc907; 
+	background-color: #000000;
+	border-radius: 30px; 	}
+.button h3 {
+	font-family:'Kaushan Script'; 
+	font-size: 35px;
+	text-align: center; }
+.button span {
+	font-family:'Quicksand'; 
+	text-align: center; }
+
+.button img{
+	margin-left: 45%;
+	margin-top: 1%;
+	-webkit-transform: scale(1);
+	-webkit-transition-duration: .3s; }
+.button img:hover{
+	-webkit-transform: scale(1.5); }
+#col3 {
+	margin-top:5%; 	}
+
+
+/*Footer top*/
+#footer-top{
+	background:#fdc907;  
+	min-height:200px; 
+	border-top: 20px 
+	solid #FFF; }
+
+#footer-top ul{
+	margin-left:40px; 	}
+#footer-top li{
+	list-style:disc; }
+#footer-top a{
+	color:#760001; 	}
+#footer-top h2{
+	margin-bottom:20px;
+	margin-top:20px;
+	margin-left:20px; 	}
+
+#col4 ul li a {
+font-family:'Quicksand'; }
+#col5 ul li img{
+	margin-right: 10px;
+    margin-left: 10px;
+    -webkit-transform: scale(1);
+	-webkit-transition-duration: .3s; 	}
+#col5 img:hover{
+	-webkit-transform: scale(1.5); }	
+#col5 span{
+	margin-left: 10px;
+	font-size: 13px;; 
+	font-weight:bold; 	}
+#col5 ul li {
+	float:left;
+	list-style:none; 	}
+
+#col6 img{
+	width:70px; 
+	height:70px;
+	-webkit-transform: scale(1);
+	-webkit-transition-duration: .3s; }
+#col6 img:hover{
+	-webkit-transform: scale(1.5); }	
+
+
+/*footer-bottom*/
+#footer-bottom{
+	color:#fdc907;
+	background-color:#000000;
+	text-align: center;
+	padding:20px 0px; 
+	font-size:9px; 	}
+#footer-bottom p{
+	font-family:'Quicksand'; 
+	text-align: center; }
+
+
+
+
+
